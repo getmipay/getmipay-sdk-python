@@ -32,7 +32,7 @@ class Signature:
         )
 
         return {
-            "x-api-key": api_key,
+            "X-API-KEY": api_key,
             "x-timestamp": timestamp,
             "x-signature": signature,
             "Content-Type": "application/json",

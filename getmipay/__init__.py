@@ -16,10 +16,3 @@ __all__ = [
     "ApiError",
     "NetworkError"
 ]
-from getmipay import GetMiPay
-
-client = GetMiPay(
-    api_key="test_key"
-)
-
-print(client.config.base_url)

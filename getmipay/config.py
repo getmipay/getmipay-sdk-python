@@ -2,7 +2,7 @@ from dataclasses import dataclass
 
 @dataclass
 class Config:
-    api_key: str = SP_K5R1Ud0bIey4C4vX9JysII8inOgKpfGSQKskHdcLDlE_AP
+    api_key: str = ""
     environment: str = "sandbox"
     timeout: int = 30
 

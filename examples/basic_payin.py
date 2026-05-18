@@ -2,20 +2,21 @@ from getmipay import GetMiPay
 
 
 mipay = GetMiPay(
-    api_key="gmp_sk_test_xxxxxxxxx",
-    environment="sandbox"
+    api_key="mipay_xxxxxxxxxxxxx",
+    environment="production"
 )
 
 try:
 
     payment = mipay.payments.payin({
-        "amount": 5000,
-        "currency": "XOF",
-        "wallet": "+2250700000000",
+        "amount": 1000,
+        "currency": "XAF",
+        "wallet": "690000000",
+        "service": "MTN",
         "customer_name": "John Doe",
         "customer_email": "john@example.com",
-        "description": "Test payment",
-        "callback_url": "https://example.com/webhook"
+        "description": "Payment for Order #123",
+        "callback_url": "https://yourapp.com/webhooks/payment"
     })
 
     print(payment)

@@ -37,7 +37,7 @@ def test_get_headers():
         body={"amount": 5000}
     )
 
-    assert "x-api-key" in headers
+    assert "X-API-KEY" in headers
 
     assert "x-signature" in headers
 
