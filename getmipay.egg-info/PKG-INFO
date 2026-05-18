@@ -1,0 +1,21 @@
+Metadata-Version: 2.4
+Name: getmipay
+Version: 1.0.0
+Summary: Official GetMiPay Python SDK
+Home-page: https://github.com/getmipay/getmipay-sdk-python
+Author: GetMiPay
+Author-email: dev@getmipay.com
+License: MIT
+Project-URL: Homepage, https://getmipay.com
+Project-URL: Documentation, https://docs.getmipay.com
+Project-URL: Repository, https://github.com/getmipay/getmipay-sdk-python
+Requires-Python: >=3.8
+Description-Content-Type: text/markdown
+License-File: LICENSE
+Dynamic: author
+Dynamic: author-email
+Dynamic: home-page
+Dynamic: license-file
+Dynamic: requires-python
+
+# GetMiPay Python SDK
